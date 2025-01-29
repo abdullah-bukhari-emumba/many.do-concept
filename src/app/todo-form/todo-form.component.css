@@ -1,0 +1,17 @@
+.form-card {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.todo-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.full-width {
+  width: 100%;
+}
+
+mat-card-actions {
+  padding: 16px;
+}

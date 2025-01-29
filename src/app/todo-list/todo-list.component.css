@@ -1,0 +1,17 @@
+.list-card {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+mat-list-item {
+  margin: 8px 0;
+}
+
+mat-list-item:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
