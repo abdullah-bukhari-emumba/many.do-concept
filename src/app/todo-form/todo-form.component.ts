@@ -37,7 +37,7 @@ export class TodoFormComponent {
     this.todoService.createTodo(todo);
     this.todoCreated.emit();
     this.todo = {
-      todo: '',
+      todo: ' ',
       completed: false,
       id: uuid(),
       userId: uuid(),
